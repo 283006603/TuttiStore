@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:contentInsetStart="0dp"
+        ></android.support.v7.widget.Toolbar>
+    
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="@color/setting_line"
+        />
+    
+    <RadioGroup
+        android:id="@+id/main_RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton
+            android:id="@+id/main_rb_applist"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/news_selector"
+            android:text="游戏推荐"
+            />
+        
+        <RadioButton
+            android:id="@+id/main_rb_stats"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/affais_selector"
+            android:text="发现"
+            />
+        
+        <RadioButton
+            android:id="@+id/main_rb_detail"
+            style="@style/main_RadioButton"
+            android:drawableTop="@drawable/monetization_selector"
+            android:text="排行榜"
+            />
+    </RadioGroup>
+</LinearLayout>
