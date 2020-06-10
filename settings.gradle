@@ -1,1 +1,1 @@
-include ':app', ':Autoadaptation'
+include ':app'

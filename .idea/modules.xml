@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Autoadaptation/Autoadaptation.iml" filepath="$PROJECT_DIR$/Autoadaptation/Autoadaptation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TuttiStore.iml" filepath="$PROJECT_DIR$/TuttiStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WanAndroid.iml" filepath="$PROJECT_DIR$/WanAndroid.iml" group="WanAndroid" />
+      <module fileurl="file://$PROJECT_DIR$/app/WanAndroid-app.iml" filepath="$PROJECT_DIR$/app/WanAndroid-app.iml" group="WanAndroid/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

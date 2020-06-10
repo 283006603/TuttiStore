@@ -42,7 +42,7 @@ public class UserListAdapter extends BaseQuickAdapter<DiscoveryBean.DataBeanX.Da
                 .load(new_url)
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.ic_launcher)
+                .placeholder(R.drawable.iv_error)
                 .dontAnimate()
                 /*.transform(new CenterCrop(mContext), new GlideCircleTransform(mContext))*/
                 .bitmapTransform(new CropCircleTransformation(mContext))
@@ -53,7 +53,7 @@ public class UserListAdapter extends BaseQuickAdapter<DiscoveryBean.DataBeanX.Da
                 .load(item.getVerified().getUrl())
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.ic_launcher)
+                .placeholder(R.drawable.iv_error)
                 .dontAnimate()
                 .into((ImageView) holder.getView(R.id.im_reason));
     }

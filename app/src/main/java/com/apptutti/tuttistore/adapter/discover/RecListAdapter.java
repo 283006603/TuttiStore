@@ -32,7 +32,7 @@ public class RecListAdapter extends BaseQuickAdapter<DiscoveryBean.DataBeanX.Dat
                 .load(item.getBanner().getOriginal_url()+"?")
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.ic_launcher)
+                .placeholder(R.drawable.iv_error)
                 .dontAnimate()
                 //以下注释是圆形图片系统自带，当然可以自定义
                 /*.bitmapTransform(new CropCircleTransformation(mContext))*/

@@ -21,7 +21,7 @@ public class GameRecoAdapter extends BaseQuickAdapter<GameRecoBean.ListBean, Bas
 
     //多布局http://blog.csdn.net/cym492224103/article/details/51222414
     public GameRecoAdapter(@Nullable List<GameRecoBean.ListBean> data) {
-        super(R.layout.item_game_reco, data);
+        super(R.layout.item_game_reco, data) ;
 
     }
 

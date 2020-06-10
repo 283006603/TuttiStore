@@ -40,7 +40,7 @@ public class AppListAdapter extends BaseQuickAdapter<DiscoveryBean.DataBeanX.Dat
                 .load(original_url+"?")
                 .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .placeholder(R.drawable.ic_launcher)
+                .placeholder(R.drawable.iv_error)
                 .dontAnimate()
                 .into((ImageView) holder.getView(R.id.iv_icon));
         holder.setText(R.id.tv_title, item.getTitle());
